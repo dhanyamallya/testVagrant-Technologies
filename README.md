@@ -8,7 +8,7 @@ class Newspaper:
   def __str__(self):
     return self.name
 def possible_combinations(newspapers, budget):
-  combinations = []
+  combinations = [ ]
   for i, newspaper in enumerate(newspapers):
         if budget >= min(newspaper.prices):
             if budget in newspaper.prices:
