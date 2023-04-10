@@ -17,7 +17,7 @@ def possible_combinations(newspapers, budget):
                 for comb in possible_combinations(newspapers[i:], budget - min(newspaper.prices)):
                     if comb[0] is newspaper or budget >= min(comb[0].prices) + min(newspaper.prices):
                         combinations.append([newspaper] + comb)
-    return combinations
+  return combinations
 
 
 if __name__ == "__main__":
