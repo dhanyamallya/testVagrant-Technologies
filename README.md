@@ -1,6 +1,10 @@
 # testVagrant-Technologies
 # M Dhanya Mallya
 # My Subscription code
+
+
+
+
 class Newspaper:
   def __init__(self, name, prices):
     self.name = name
